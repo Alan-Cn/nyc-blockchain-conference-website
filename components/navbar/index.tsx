@@ -3,6 +3,7 @@ import Link from 'next/link'
 import styles from "./styles.module.scss"
 import Image from 'next/image';
 import logoLight from "@/public/logo.png"
+import ConnectBut from '@/components/connectBut'
 
 const NAV_LIST = [
   {
@@ -33,8 +34,8 @@ export const NavBar: FC = ({}) => {
         {
           NAV_LIST.map((item, index) => {
             return (
-              <Link href={item.link}>
-                <li key={index} className={styles.navLi}>
+              <Link href={item.link} key={index}>
+                <li className={styles.navLi} key={index}>
                   {item.title}
                 </li>
               </Link>
@@ -43,7 +44,8 @@ export const NavBar: FC = ({}) => {
         }
       </ul>
       <div className={styles.ticketButton}>
-        TICKETING
+          <ConnectBut/>
+        TICKING
       </div>
     </div>
   )
