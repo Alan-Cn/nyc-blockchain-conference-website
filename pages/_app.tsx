@@ -1,7 +1,6 @@
 import type { AppProps, AppContext } from "next/app";
 import App from "next/app";
 import { Layout, ILayoutProps } from "@/components/layout";
-import code from "@/public/code.png";
 import Head from 'next/head';
 import { useEffect } from "react";
 
@@ -22,6 +21,9 @@ const MyApp = (data: AppProps & ILayoutProps) => {
           }
           div {
             flex-shrink: 0;
+          }
+          a {
+            text-decoration: none;
           }
         `}
       </style>

@@ -79,10 +79,8 @@ const VOTE_LIST = [
 ]
 
 const Vote: FC = ({}) => {
-let {address} =useAccount()
-  useEffect(()=>{
+  const {address} = useAccount()
 
-  },[address]);
   return (
     <div className={styles.vote}>
       <div className={styles.title}>

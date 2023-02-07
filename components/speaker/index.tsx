@@ -3,6 +3,8 @@ import styles from "./styles.module.scss"
 import Image from "next/image";
 import rightArrow from "@/public/rightAllow.png";
 import speaker from "@/public/speaker.png";
+import Link from 'next/link'
+
 const ALLSPEAKERS=[
     {
         url:speaker,
@@ -48,7 +50,9 @@ const Speaker: FC =({}) => {
               SPEAKER
             </div>
             <div className={styles.apply}>
-              APPLY
+              <Link href='/speaker'>
+                APPLY
+              </Link>
               <Image src={rightArrow} className={styles.rightAllow} alt="right_allow"></Image>
             </div>
           </div>

@@ -3,14 +3,14 @@ import { Form, Input, Select } from 'antd';
 import Image from 'next/image';
 import logoLight from "@/public/logo.png"
 
-const Sponsors = () => {
+const Speaker = () => {
   const [form] = Form.useForm();
 
   return (
     <div className={styles.container}>
       <div className={styles.formContainer}>
         <div className={styles.speakerTitle}>
-          <span>SPONSOR </span>APPLY
+          <span>SPEAKER </span>APPLY
         </div>
         <div className={styles.formTitle}>
           <Image src={logoLight} alt="logo"/>
@@ -77,4 +77,4 @@ const Sponsors = () => {
   );
 };
 
-export default Sponsors;
+export default Speaker;

@@ -6,6 +6,7 @@ import meta_mask from "@/public/meta_mask.png"
 import trust from "@/public/trust.png"
 import token_pocket from "@/public/token_pocket.png"
 import right_allow from "@/public/rightAllow.png"
+import Link from 'next/link'
 
 const SPONSOR_LIST = [
   binance, meta_mask, trust, token_pocket,
@@ -23,7 +24,9 @@ const Sponsor: FC = ({}) => {
           SPONSOR
         </div>
         <div className={styles.apply}>
-          APPLY
+            <Link href='/sponsors'>
+              APPLY
+            </Link>
           <Image src={right_allow} className={styles.rightAllow} alt="right_allow"></Image>
         </div>
       </div>
