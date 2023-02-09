@@ -1,1 +1,1 @@
-export const QUERY_VOTE = 'xxx'
+export const QUERY_SPONSOR = '/api/sponsor'

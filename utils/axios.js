@@ -1,15 +1,5 @@
 import axios from 'axios'
 
-let baseURL = location.protocol + '//' + location.hostname
-
-// if(process.env.NODE_ENV === 'production' ) {
-//   baseURL = '上线的地址'
-// } else {
-//   baseURL = '开发的地址'
-// }
-
-console.log(process.env.NODE_ENV)
-
 // 拦截器
 axios.interceptors.response.use((response) => {
   return response
@@ -19,8 +9,7 @@ axios.interceptors.response.use((response) => {
 
 // 请求配置
 axios.interceptors.request.use((config) => {
-  config.headers['Accept'] = 'application/vnd.dpexpo.v1+json'
-  config.baseURL = baseURL
+  config.headers['Accept'] = 'application/json;charset=UTF-8'
   config.timeout = 5000
   return config;
 }, (error) => {
