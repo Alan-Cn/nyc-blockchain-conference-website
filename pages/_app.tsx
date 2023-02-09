@@ -1,11 +1,10 @@
-import type { AppProps, AppContext } from "next/app";
-import App from "next/app";
-import { Layout, ILayoutProps } from "@/components/layout";
+import { AppProps } from "next/app";
+import { Layout } from "@/components/layout";
 import Head from 'next/head';
 import { useEffect } from "react";
 
-const MyApp = (data: AppProps & ILayoutProps) => {
-  const { Component, pageProps, navbarData, footerData } = data;
+const MyApp = (data: AppProps) => {
+  const { Component, pageProps } = data;
 
   useEffect(() => {
     import("amfe-flexible")
