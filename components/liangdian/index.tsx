@@ -11,7 +11,7 @@ const Liangdian: FC = ({}) => {
       </div>
       <div className={styles.titleLine}/>
       <div className={styles.titleTip}>
-        THE MOST SIGNIFICANT INTERNATIONAL INSTITUTIONAL WEB3 EVENT OF 2023
+      THE MOST SIGNIFICANT INTERNATIONAL INSTITUTIONAL WEB3 EVENT OF 2023
       </div>
       <div className={styles.liangdianInfo}>
         <div className={styles.liangdianInfoItems}>
@@ -22,10 +22,7 @@ const Liangdian: FC = ({}) => {
                   1
                 </div>
                 <div className={styles.itemInfo}>
-                  Co-hosted by CTH Group, a leading global blockchain ecosystem builder, 
-                  and the City of Miami, the Miami Web3 Summit will be the most significant 
-                  international institutional Web3 event of 2022 as we witness this once-in-a-generation 
-                  transformation toward our future digital economy.
+                How to rebuild the industry consensus after the conllapse of 3AC, LUNA, and FTX
                 </div>
               </div>
               <div className={styles.itemContent}>
@@ -33,10 +30,7 @@ const Liangdian: FC = ({}) => {
                   2
                 </div>
                 <div className={styles.itemInfo}>
-                  Co-hosted by CTH Group, a leading global blockchain ecosystem builder, 
-                  and the City of Miami, the Miami Web3 Summit will be the most significant 
-                  international institutional Web3 event of 2022 as we witness this once-in-a-generation 
-                  transformation toward our future digital economy.
+                To enhance dialogues between scholars, legislators, government authorities and the core industry leaders. As to build mutual trust through private meetings and open dialogues, and also, to explore a reciprocal and applicable industry self-regulatory standards and government regulatory rules. Aimed to issue the "Blockchain Autonomy Declaration 2023" after the summit.
                 </div>
               </div>
               <div className={styles.itemContent}>
@@ -44,10 +38,7 @@ const Liangdian: FC = ({}) => {
                   3
                 </div>
                 <div className={styles.itemInfo}>
-                  Co-hosted by CTH Group, a leading global blockchain ecosystem builder, 
-                  and the City of Miami, the Miami Web3 Summit will be the most significant 
-                  international institutional Web3 event of 2022 as we witness this once-in-a-generation 
-                  transformation toward our future digital economy.
+                Promote the constitution of the metaverse and establish a more orderly metaverse ecology. Promote the governance level of DAO
                 </div>
               </div>
             </div>
@@ -61,10 +52,7 @@ const Liangdian: FC = ({}) => {
             4
           </div>
           <div className={styles.liangdianInfoItemWord}>
-            Co-hosted by CTH Group, a leading global blockchain ecosystem builder, 
-            and the City of Miami, the Miami Web3 Summit will be the most significant 
-            international institutional Web3 event of 2022 as we witness this once-in-a-generation 
-            transformation toward our future digital economy.
+          Establish the largest industry summit brand in New York, and provide an effective communication platform for regulators, Wall Street, academia, technologists, entrepreneurs, and cryptocurrency enthusiasts
           </div>
         </div>
       </div>

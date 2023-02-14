@@ -18,11 +18,14 @@ const Agenda: FC = ({}) => {
           <div className={`${styles.arc} ${styles.arcTwo}`}>
             <div className={styles.arcContent}/>
           </div>
+          <div className={`${styles.arc} ${styles.arcTwo}`}>
+            <div className={styles.arcContent}/>
+          </div>
         </div>
         <div className={styles.nymInfoItem}>
           <div className={styles.nycInfo}>
-            <span className={styles.infoTime}>2023-01-09 12:00 # NFTNYC</span>
-            <span className={styles.infoTip}>More than just an event</span>
+            <span className={styles.infoTime}>2023-06-01 # BBS.NYC</span>
+            <span className={styles.infoTip}>2023 WEB3.0 Leaders Summit (9am - 5pm)</span>
           </div>
           <div className={styles.nycImage}>
             <Image className={styles.agenda1} src={agenda1} alt="agenda1" />
@@ -30,11 +33,20 @@ const Agenda: FC = ({}) => {
         </div>
         <div className={styles.nymInfoItem}>
           <div className={styles.nycInfo}>
-            <span className={styles.infoTime}>2023-01-09 12:00 # NFTNYC</span>
-            <span className={styles.infoTip}>More than just an event</span>
+            <span className={styles.infoTime}>2023-06-02 # BBS.NYC</span>
+            <span className={styles.infoTip}>Metaverse Citizens Meeting (9am - 12am)</span>
           </div>
           <div className={styles.nycImage}>
             <Image className={styles.agenda2} src={agenda2} alt="agenda2" />
+          </div>
+        </div>
+        <div className={styles.nymInfoItem}>
+          <div className={styles.nycInfo}>
+            <span className={styles.infoTime}>2023-06-02 # BBS.NYC</span>
+            <span className={styles.infoTip}>Supervision, compliance, and consensus rebuild (1pm-5pm)</span>
+          </div>
+          <div className={styles.nycImage}>
+            <Image className={styles.agenda1} src={agenda1} alt="agenda1" />
           </div>
         </div>
       </div>

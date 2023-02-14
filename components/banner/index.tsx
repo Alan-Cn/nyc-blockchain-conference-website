@@ -14,12 +14,12 @@ const Banner: FC = ({}) => {
           <Image className={styles.clockimg} src={clock} alt="logo"  />
           <div className={styles.meetInfoContent}>
             <div className={styles.infoDate}>
-              Date : MAY   26-28 • NYC
+            Date : June 01-03 • NYC
             </div>
             <div className={styles.infoAddress}>
               {'ADDRESS '}
               <Image className={styles.logoimg} src={address} alt="logo" width={35} height={35} />
-              {' XXXXX-XXXX-XXXX'}
+              {'TBD'}
             </div>
           </div>
         </div>

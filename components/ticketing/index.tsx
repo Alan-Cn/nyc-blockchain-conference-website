@@ -6,34 +6,22 @@ import logo from "@/public/logo.png"
 
 const TICKET_LIST = [
   {
-    title: 'Two-Day Pass',
-    total: '$1,199.00',
-    infoPart: 'register by Jan. 13 to save $800 on walk-up rates',
-    infoPartTwo: 'A third day of Consensus. Plus, opportunities to learn, grow and connect with professionals in a relaxed environment.',
+    title: 'VIP ticket',
+    total: '$3,800',
+    infoPart: 'Early bird: $2,600',
+    infoPartTwo: 'VIP zone + VIP badge + tea break in VIP lounge and much more',
   },
   {
-    title: 'Two-Day Pass',
-    total: '$1,199.00',
-    infoPart: 'register by Jan. 13 to save $800 on walk-up rates',
-    infoPartTwo: 'A third day of Consensus. Plus, opportunities to learn, grow and connect with professionals in a relaxed environment.',
+    title: 'Guest Ticket',
+    total: '$800',
+    infoPart: 'Early bird: $599',
+    infoPartTwo: 'Two days of content, networking and experiences',
   },
   {
-    title: 'Two-Day Pass',
-    total: '$1,199.00',
-    infoPart: 'register by Jan. 13 to save $800 on walk-up rates',
-    infoPartTwo: 'A third day of Consensus. Plus, opportunities to learn, grow and connect with professionals in a relaxed environment.',
-  },
-  {
-    title: 'Two-Day Pass',
-    total: '$1,199.00',
-    infoPart: 'register by Jan. 13 to save $800 on walk-up rates',
-    infoPartTwo: 'A third day of Consensus. Plus, opportunities to learn, grow and connect with professionals in a relaxed environment.',
-  },
-  {
-    title: 'Two-Day Pass',
-    total: '$1,199.00',
-    infoPart: 'register by Jan. 13 to save $800 on walk-up rates',
-    infoPartTwo: 'A third day of Consensus. Plus, opportunities to learn, grow and connect with professionals in a relaxed environment.',
+    title: 'Student Pass',
+    total: '$399',
+    infoPart: 'Early bird: $299',
+    infoPartTwo: 'Complete the application form with a valid proof of enrollment. Approved students will receive a promotional link via email. Same benefits as the Guest Ticket.',
   },
 ]
 const Ticketing: FC = ({}) => {

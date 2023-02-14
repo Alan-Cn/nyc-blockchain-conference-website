@@ -4,19 +4,21 @@ import Banner from '../components/banner'
 import Liangdian from '../components/liangdian'
 import Agenda from '../components/agenda'
 import Ticketing from '../components/ticketing'
-import Vote from '../components/vote'
+// import Vote from '../components/vote'
 import Speaker from "@/components/speaker";
 import Sponsor from "../components/sponsor";
+import Whatbbs from "../components/whatisbbsnyc"
 import { querySponsor } from '../utils/servers'
 
 const Home: NextPage = (props: any) => {
   return (
     <div className={styles.container}>
       <Banner></Banner>
+      <Whatbbs></Whatbbs>
       <Liangdian></Liangdian>
       <Agenda></Agenda>
       <Ticketing></Ticketing>
-      <Vote></Vote>
+      {/* <Vote></Vote> */}
       <Speaker></Speaker>
       <Sponsor></Sponsor>
     </div>
